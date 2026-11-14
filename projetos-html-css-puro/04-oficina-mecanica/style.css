@@ -1,0 +1,10 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif; }
+body { background-color: #ffffff; color: #1f2937; }
+.topo { display: flex; align-items: center; gap: 30px; padding: 25px 6%; border-bottom: 2px solid #e5e7eb; }
+.nome-empresa { font-size: 1.8rem; color: #111827; }
+.contato { font-size: 1.2rem; font-weight: bold; color: #dc2626; background: #fef2f2; padding: 8px 16px; border-radius: 6px; border: 1px solid #fecaca; }
+.conteudo { padding: 40px 6%; max-width: 1000px; }
+.servicos h2 { font-size: 1.4rem; margin-bottom: 18px; color: #111827; }
+.servicos ul { list-style-type: disc; padding-left: 22px; margin-bottom: 35px; }
+.servicos li { margin-bottom: 14px; font-size: 1.05rem; line-height: 1.5; }
+.imagem-oficina img { width: 100%; max-width: 750px; border-radius: 8px; border: 1px solid #d1d5db; }

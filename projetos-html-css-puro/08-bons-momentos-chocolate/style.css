@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+body { background: #fdf8f5; color: #3e2723; }
+.topo { background: #3e2723; color: #fff; padding: 20px 8%; display: flex; justify-content: space-between; align-items: center; }
+.marca { font-size: 1.7rem; font-weight: bold; color: #f3d5b5; }
+.menu a { color: #fff; text-decoration: none; margin-left: 22px; font-weight: 500; }
+.menu a:hover { color: #f3d5b5; }
+.banner-natal { background: linear-gradient(135deg, #7f1d1d, #991b1b); color: #fff; text-align: center; padding: 70px 20px; border-bottom: 5px solid #d97706; }
+.banner-natal h1 { font-size: 2.8rem; letter-spacing: 2px; margin-bottom: 10px; }
+.vitrine { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; padding: 50px 8%; }
+.card { background: #fff; border: 1px solid #e7d8c9; border-radius: 10px; overflow: hidden; text-align: center; padding-bottom: 20px; box-shadow: 0 4px 12px rgba(62,39,35,0.08); }
+.card img { width: 100%; height: 180px; object-fit: cover; }
+.card h3 { margin: 15px 10px 8px; color: #4e2a1e; }
+.card p { font-size: 0.9rem; padding: 0 15px 18px; color: #6d4c41; }
+.card button { background: #4e2a1e; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+.card button:hover { background: #7f1d1d; }
+.rodape { background: #261613; color: #d7ccc8; text-align: center; padding: 25px 15px; font-size: 0.85rem; line-height: 1.6; }

@@ -1,0 +1,23 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #121110; color: #e5dcc5; font-family: 'Georgia', 'Times New Roman', serif; line-height: 1.7; }
+.navbar { background: #0b0a09; border-bottom: 2px solid #5c432c; padding: 18px 8%; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; }
+.brand { font-size: 1.5rem; letter-spacing: 3px; font-weight: bold; color: #d4b996; }
+.navbar ul { list-style: none; display: flex; gap: 25px; }
+.navbar a { color: #b8afa3; text-decoration: none; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1.5px; }
+.navbar a:hover { color: #e5dcc5; }
+.hero { height: 420px; background: url('https://placehold.co/1400x600/1c1714/4a3728?text=VINLAND+SAGA+BANNER') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; border-bottom: 3px solid #4a3525; }
+.hero-overlay { background: rgba(11, 10, 9, 0.78); padding: 40px; border: 1px solid #6b4f35; max-width: 750px; }
+.hero h1 { font-size: 3.2rem; letter-spacing: 6px; color: #f3ead8; margin-bottom: 15px; }
+.quote { font-style: italic; font-size: 1.2rem; color: #c7b293; }
+.container { padding: 60px 10%; }
+.dark-alt { background: #1a1816; border-top: 1px solid #2e2924; border-bottom: 1px solid #2e2924; }
+h2 { font-size: 2rem; color: #d4b996; letter-spacing: 2px; text-transform: uppercase; border-left: 4px solid #78553a; padding-left: 15px; margin-bottom: 25px; }
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+.char-card { background: #221f1d; border: 1px solid #4a3b2c; }
+.char-img { height: 180px; background-size: cover; background-position: center; border-bottom: 1px solid #4a3b2c; }
+.char-card h3 { padding: 15px 15px 5px; color: #e5dcc5; letter-spacing: 1px; }
+.char-card p { padding: 0 15px 20px; font-size: 0.92rem; color: #a89f91; }
+.season-box { background: #1f1c1a; border-left: 4px solid #8c6239; padding: 20px; margin-bottom: 18px; }
+.season-box h3 { color: #e5dcc5; margin-bottom: 8px; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; }
+.gallery-grid img { width: 100%; border: 2px solid #4a3b2c; filter: sepia(20%); }

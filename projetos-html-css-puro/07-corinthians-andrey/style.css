@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background-color: #000000; color: #ffffff; padding: 40px 20px; }
+.pagina { max-width: 900px; margin: 0 auto; }
+header { text-align: center; margin-bottom: 40px; border-bottom: 1px solid #333; padding-bottom: 20px; }
+.sub { color: #aaa; font-size: 0.9rem; margin-top: 5px; }
+.bio-container { display: flex; align-items: center; gap: 30px; margin-bottom: 40px; flex-wrap: wrap; }
+.escudo { width: 200px; height: 200px; border: 2px solid #fff; border-radius: 50%; object-fit: cover; }
+.bio-texto { flex: 1; min-width: 260px; }
+.bio-texto h2 { margin-bottom: 12px; font-size: 1.6rem; }
+.bio-texto p { line-height: 1.6; color: #e5e5e5; }
+.janela-titulos { border: 2px solid #ffffff; border-radius: 8px; background: #0d0d0d; overflow: hidden; }
+.janela-titulos h2 { background: #ffffff; color: #000000; padding: 12px 20px; font-size: 1.2rem; }
+.lista-titulos { padding: 20px; max-height: 250px; overflow-y: auto; }
+.lista-titulos ul { list-style: square; padding-left: 20px; }
+.lista-titulos li { margin-bottom: 10px; line-height: 1.5; }

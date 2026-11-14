@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Emprego</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Trabalhe Conosco</h1>
+    <p>Preencha suas informações para participar do processo seletivo.</p>
+    
+    <form class="form-box">
+      <div class="input-group">
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" placeholder="Ex: Maria Silva" required>
+      </div>
+
+      <div class="row">
+        <div class="input-group">
+          <label for="telefone">Telefone / WhatsApp</label>
+          <input type="tel" id="telefone" placeholder="(00) 00000-0000" required>
+        </div>
+        <div class="input-group">
+          <label for="idade">Idade</label>
+          <input type="number" id="idade" min="16" max="99" placeholder="Ex: 24" required>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label for="habilidades">Principais Habilidades</label>
+        <textarea id="habilidades" rows="4" placeholder="Descreva suas ferramentas, cursos e experiências..." required></textarea>
+      </div>
+
+      <label class="checkbox-confirm">
+        <input type="checkbox" required> Confirmo que os dados são verdadeiros
+      </label>
+
+      <button type="submit" class="btn-enviar">Enviar Currículo</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Apresentação Profissional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Studio Silva</div>
+    <nav>
+      <a href="#sobre">Sobre Nós</a>
+      <a href="#atendimento">Atendimento</a>
+      <a href="#agendar" class="btn-nav">Agendar Serviço</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Soluções Profissionais sob Medida para Você</h1>
+    <p>Excelência, pontualidade e dedicação em cada projeto realizado.</p>
+    <a href="#agendar" class="btn-cta">Solicitar Horário</a>
+  </section>
+
+  <section id="sobre" class="secao">
+    <h2>Sobre Nós</h2>
+    <p>Somos especialistas comprometidos em entregar resultados de alto padrão. Com anos de experiência no mercado, unimos técnica apurada e atendimento humanizado para entender exatamente a necessidade de cada cliente.</p>
+  </section>
+
+  <section id="atendimento" class="secao cinza">
+    <h2>Nosso Atendimento</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Horários</h3>
+        <p>Segunda a Sexta: 08h às 18h<br>Sábados: 08h às 12h</p>
+      </div>
+      <div class="card">
+        <h3>Modalidades</h3>
+        <p>Atendimento presencial em nosso escritório ou consultoria online.</p>
+      </div>
+      <div class="card">
+        <h3>Suporte Direto</h3>
+        <p>Canal exclusivo via WhatsApp e E-mail para acompanhamento.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="agendar" class="secao">
+    <h2>Agendar Serviço</h2>
+    <form class="agenda-form">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="tel" placeholder="Seu Telefone" required>
+      <select required>
+        <option value="">Selecione o Serviço</option>
+        <option>Consultoria Inicial</option>
+        <option>Execução Completa</option>
+        <option>Manutenção / Revisão</option>
+      </select>
+      <input type="date" required>
+      <button type="submit">Confirmar Agendamento</button>
+    </form>
+  </section>
+</body>
+</html>
